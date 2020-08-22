@@ -7,3 +7,8 @@ cmake ..
 make
 make test
 ~~~
+
+## Docker Build
+~~~
+docker build --file ./DockerFile .
+~~~
