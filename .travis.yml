@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -t clucle/travis  .
+  - docker build -t clucle/travis --file ./Dockerfile .
   

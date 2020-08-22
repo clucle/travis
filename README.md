@@ -10,5 +10,5 @@ make test
 
 ## Docker Build
 ~~~
-docker build --file ./DockerFile .
+- docker build -t clucle/travis --file ./Dockerfile .
 ~~~
